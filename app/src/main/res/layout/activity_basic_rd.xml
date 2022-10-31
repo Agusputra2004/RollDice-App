@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/fl1">
+
+    <ImageView
+        android:id="@+id/daduview"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/empty_dice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67"
+        tools:src="@drawable/empty_dice">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="312dp"
+        android:textAlignment="center"
+        android:textColor="@color/cream"
+        android:textSize="39sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:text="Roll Dice!">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ket"
+        android:layout_width="107dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="200dp"
+        android:background="@color/cream"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876"
+        tools:text="">
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnroll"
+        android:layout_width="108dp"
+        android:layout_height="42dp"
+        android:text="Roll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnres"
+        android:layout_width="108dp"
+        android:layout_height="42dp"
+        android:text="reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
